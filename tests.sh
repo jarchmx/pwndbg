@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+
 cd tests/binaries && make && cd ../..
 
 # NOTE: We run tests under GDB sessions and because of some cleanup/tests dependencies problems
